@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.page {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+synchronized-scroll:not(.mobile-version) {
+    position: fixed !important;
+    height: 100%;
+    overflow: auto;
+}
